@@ -159,4 +159,37 @@ how to push to github
 2.new repository
 3.api name
 4.create repository
+5.git init
+git add .
+git commit -m "E-commerce Order & Inventory API complete"
+git branch -M main
+git remote add origin <your-github-repo-url>
+git push -u origin main
+6.https://github.com/hemasrishalini/order-inventory-api
+7.cd ~/shalu_coding/order-inventory-api
+8.git add .
+9.git commit -m "Add full project structure and code"
+10.git push -u origin main
 
+
+(why we r doing pr request means?
+PR = Pull Request
+It is just a professional way to add new code into the main project.
+Think of PR like:
+
+👉 “Before I add this code to the main project, let me check it
+You have a big project.
+
+You add new feature in your code.
+
+If you directly push into main branch →
+❌ You may break something
+❌ Hard to undo mistakes
+❌ No review
+❌ No history of what changed
+
+So instead of pushing → you create a PR.)
+
+raising pr
+1.cd ~/shalu_coding/order-inventory-api
+2.git checkout -b update-readme(Create a new feature branch)
